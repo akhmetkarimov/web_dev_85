@@ -61,9 +61,3 @@ let minute = 60
 let hour = 24
 let resultSeconds = seconds * minute * hour
 console.log(resultSeconds)
-
-
-
-
-
-
