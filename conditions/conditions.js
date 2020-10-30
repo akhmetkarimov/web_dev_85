@@ -108,7 +108,7 @@ let n = 11
 let result = n % 2 == 0 ? 'EVEN' : 'ODD'
 
 console.log(result)
- 
+github.com/akhmetkarimov/web_dev_85
 if(n % 2 == 0){
     console.log('EVEN')
 }else{
