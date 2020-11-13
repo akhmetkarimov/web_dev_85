@@ -119,13 +119,32 @@
 // console.log(sumDigits)
 
 
-do {
-    console.log('DO While')
+// do {
+//     console.log('DO While')
+// }
+// while (10 > 20)
+
+
+
+// while (10 > 20) {
+//     console.log('While')
+// }
+
+let arr = [1, 2, 3, 44, 5, 12]
+
+for (let item of arr){
+    console.log(item)
 }
-while (10 > 20)
 
-
-
-while (10 > 20) {
-    console.log('While')
+for (let item in arr) {
+    console.log(item, arr[item])
 }
+
+arr.forEach((item, index)=>{
+    console.log(index, item)
+})
+
+arr.map((item, index)=>{
+    console.log(index, item)
+})
+
