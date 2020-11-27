@@ -1,0 +1,58 @@
+.Header {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+/* 
+    color name 
+    hex code 0-9, A-F
+    rgb, rgba    
+    hsl, hsla
+*/
+
+.header_inner, .header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo img {
+    width: 200px;
+}
+
+.header_nav{
+    width: 75%;
+}
+
+.header_nav a {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.under_header{
+    background-image: url('../../images/backgrounds/slider.jpg');
+}
+
+.under_content{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 100px;
+    margin-left: 5%;
+    text-transform: uppercase;
+
+    line-height: 1.5;
+}
+
+.under_content > p {
+    font-size: 24px;
+    color: #575757;
+    font-weight: 300;
+}
+
+.under_content > h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0;
+}
