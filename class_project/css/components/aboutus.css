@@ -1,0 +1,153 @@
+.main_about{
+    display: flex;
+    justify-content: space-between;
+}
+.about_block{
+    width: 45%;
+}
+
+.about_bg{
+    background-image: url('../../images/backgrounds/about.jpg');
+}
+.about_content{
+    margin-top: 50px;
+}
+
+.tab_navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.tab_navs button {
+    text-transform: uppercase;
+    padding: 25px 20px;
+    position: relative;
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.tab_content{
+    margin: 30px 0;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #777
+}
+
+.tab_navs::after {
+    content: " ";
+    background-color: #cccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    transition: .5s;
+    z-index: 0;
+}
+
+.tab_navs button::after {
+    content: " ";
+    position: absolute;
+    background-color: #cccc;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    transition: .5s;
+    z-index: 1;
+}
+.tab_navs button.active{
+    color: #f5b316
+}
+.tab_navs button.active::after {
+    background-color: #f5b316;
+}
+
+.about_content .wrap {
+    width: 80%;
+}
+
+.about_block.about_bg {
+    position: relative;
+    right: -12%;
+    width: 55%;
+}
+
+
+.service_item{
+    width: calc(100% / 3 - 5%);
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 25px 20px;
+    line-height: 1.5;
+}
+
+.service_icon img {
+    height: 55px;
+    width: auto;
+}
+
+.service_icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_icon::after {
+    content: " ";
+    background-image: url('../../images/widgets/serive-icon-bg.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    transition: .5s;
+}
+
+.service_content{
+    margin-top: 30px;
+}
+
+.service_content h3{
+    font-size: 20px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.service_content p{
+    font-size: 16px;
+    color: #777
+}
+
+.line {
+    background-color: #ccc;
+    width:20%;
+    height: 4px;
+    margin: 15px auto;
+    transition: .5s;
+}
+
+
+.service_item:hover .line{
+    width: 35%;
+}
+
+.service_item:hover .service_icon::after{
+    transform: rotate(30deg);
+}
+
+.service_item:hover h3{
+    color: #f5b316;
+}
+
+.main_service .wrap {
+    margin-top: 50px;
+}

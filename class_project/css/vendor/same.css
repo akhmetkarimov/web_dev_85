@@ -15,9 +15,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+    transition: .5s;
 }
 
+.read.quote_btn {
+    width: 200px;
+    background-color: transparent;
+    border-color: #000;
+    color: #000;
+}
 
+.read.quote_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.quote_btn:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.top_section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    /* width: 50%; */
+}
+
+.top_section h2::after {
+    content: " ";
+    background-color: #f5b316;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 20%;
+}
+
+.section_padding {
+    padding: 60px 0;
+}
+.wrap{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+}
 /* .test{
     width: 200px;
     height: 200px;
