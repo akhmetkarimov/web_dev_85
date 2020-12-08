@@ -1,0 +1,48 @@
+.damir {
+    background-image: url('../../images/backgrounds/counter.jpg');
+    background-position: center center;
+    
+}
+
+.damir_item img {
+    position: relative;
+}
+
+/* .damir_item img::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    margin: 20px 0;
+    left: 0;
+    background-color: #f5b316;
+} */
+
+.damir_item {
+    width: 33%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.damir_item:nth-child(2) {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.damir_line {
+    width: 50%;
+    height: 4px;
+    margin: 20px auto;
+    background-color: #f5b316;
+}
+
+.damir_item h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.damir_item p {
+    font-size: 20px;
+    color: #ffffff;
+}

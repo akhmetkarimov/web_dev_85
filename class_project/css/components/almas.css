@@ -1,0 +1,29 @@
+.almas {
+    background-image: url(../../images/backgrounds/counter.jpg);
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
+    background-size: cover;
+
+}
+
+.almas_item {
+    padding: 50px 0;
+    
+}
+
+.almas p {
+    font-size: 25px;
+    color: white;
+}
+
+.almas h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.almas_line {
+    width: 60px;
+    height: 3px;
+    background-color: #f5b316;
+}
