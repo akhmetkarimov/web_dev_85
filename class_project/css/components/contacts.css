@@ -1,0 +1,74 @@
+.main_contacts {
+    background-color: #f8f9fa;
+}
+
+.inner_contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_block {
+    width: 60%;
+}
+
+.input_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_row input {
+    width: 45%;
+}
+
+.contact_block .faq_form {
+    align-items: flex-end;
+}
+
+.phones {
+    width: 25%;
+    border-left: 1px solid #e8e8e8;
+    padding-left: 40px;
+}
+
+.contact_item {
+    display: flex;
+    padding: 25px 0;
+}
+
+.contact_item:not(:last-child) {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.contact_item i {
+    color: #f5b316;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.contact_item h3 {
+    font-weight: 500;
+    color: #000;
+}
+
+.list {
+    line-height: 2;
+    color: #777
+}
+.list a {
+    color: #777
+
+}
+
+.partner_item {
+    width: calc(100% / 5 - 3%);
+    border: 1px solid #e8e8e8;
+}
+.partner_item img {
+    width: 100%;
+    filter: grayscale(1);
+    transition: .5s;
+}
+.partner_item:hover img {
+    filter: grayscale(0);
+}
