@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+    /* width: 90%;
+    margin: 0 auto; */
+}
+
+.header {
+    background-color: #333;
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+    position: fixed;
+    right: 0;
+    left: 0;
+
+    z-index: 200;
+}
+
+.header div > a {
+    color: #fff;
+}
+
+.main-home {
+    background-image: url(https://wow.zamimg.com/uploads/blog/images/20516-afterlives-ardenweald-4k-desktop-wallpapers.jpg);
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    text-align: center;
+    color: #fff;
+    /* padding: 250px 0;
+    margin: 0 auto; */
+    width: 50%;
+    font-size: 30px;
+}
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-block {
+    width: 45%;
+    height: 400px;
+}
+
+.about-block:first-child {
+    background-image: url('https://wallpapershome.ru/images/wallpapers/poligon-2560x1440-4k-hd-3d-fon-241.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg2 {
+    background-color: #f2f2f2;
+}
+
+.template-item {
+    cursor: pointer;
+    width: calc(100% / 3 - 3%);
+    margin-bottom: 50px;
+
+    position: relative;
+    z-index: 5;
+}
+
+.team-item img {
+    width: 100%;
+}
+
+.inner-item {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    color: #fff;
+
+    text-transform: uppercase;
+
+    transition: .5s;
+    transform: scale(0);
+
+    border-radius: 50%;
+}
+
+.team-item:hover .inner-item{
+    transform: scale(1);
+    border-radius: 0;
+}
+
+.reverse.wrap{
+    flex-direction: row-reverse;
+}

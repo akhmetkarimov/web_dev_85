@@ -83,6 +83,7 @@
 
 .service_item{
     width: calc(100% / 3 - 5%);
+    height: 300px;
     border: 1px solid #ccc;
     text-align: center;
     padding: 25px 20px;

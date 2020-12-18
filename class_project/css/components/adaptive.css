@@ -1,0 +1,144 @@
+/* 1024, 768, 425, 320 */
+
+@media (max-width: 1250px) {
+    .quote_btn {
+        margin-bottom: 20px;
+        width: 200px;
+    }
+}
+@media (max-width: 1140px) {
+    .service_item {
+        width: calc(100% / 2 - 7%);
+        margin-bottom: 50px;
+    }
+
+    .service_item:last-child {
+        margin: 0 auto;
+    }
+
+    .navs {
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .header_nav {
+        display: none;
+    }
+
+    .mobile_nav.fas {
+        display: block;
+    }
+
+    .main_about,.inner_faq, .inner_contact{
+        flex-wrap: wrap;
+    }
+    
+    .about_block, .faq_block, .contact_block{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about_block.about_bg {
+        height: 400px;
+        width: 100%;
+        position: static;
+    }
+    .about_content .wrap {
+        width: 100%;
+    }
+
+    .phones {
+        border: none;
+        padding: 0;
+    }
+    .tab_item {
+        width: calc(100% / 3 - 3%);
+    }
+    .top_item {
+        width: calc(100% / 2 - 3%);
+    }
+}
+
+@media (max-width: 850px) {
+    .under_content {
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .under_content > p {
+        font-size: 18px;
+    }
+    .under_content > h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .service_item {
+        width: 100%;
+    }
+
+    .service_item:last-child {
+        margin: 0 0 50px;
+    }
+    .navs {
+        width: 80%;
+    }
+    .tab_item {
+        width: calc(100% / 2 - 3%);
+    }
+    .partner_item {
+        width: calc(100% / 3 - 3%);
+    }
+}
+@media (max-width: 565px) {
+
+    .navs {
+        flex-direction: column;
+    }
+    .navs a {
+        margin-bottom: 20px;
+    }
+
+    .tab_item {
+        width: 100%;
+    }
+
+    .counter_item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .counter_item:nth-child(2) {
+        border-color: transparent;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 40px 0;
+    }
+    .top_item {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .input_row {
+        flex-direction: column;
+    }
+    .input_row input {
+        width: 100%;
+        padding: 15px 0 15px 15px;
+    }
+    .faq_query {
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .partner_item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .under_content {
+        width: fit-content;
+        padding: 10px;
+    }
+    .tab_navs button{
+        padding: 20px 0;
+        font-size: 10px;
+    }
+}
