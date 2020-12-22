@@ -30,7 +30,7 @@
                 <a href="#">elements</a>
             </div>
 
-            <div class="mobile_nav fas fa-bars">
+            <div class="mobile_nav fas fa-bars" onclick="toggleModalNav('open')">
 
             </div>
         </div>
@@ -42,7 +42,7 @@
                 interior design business</p>
             <h1 id="top_notch">Top Notch Architecture Solutions</h1>
 
-            <a href="#" class="quote_btn">get quote</a>
+            <a href="#" class="quote_btn" onclick="toggleModal('open')">get quote</a>
         </div>
     </section>
 
@@ -433,8 +433,40 @@
             </div>
         </footer>
 
+        <div class="modal_window">
+
+            <div class="modal_content">
+                <button class="close_btn" onclick="toggleModal()">X</button>
+                hello world
+            </div>
+    
+        </div>
+
+        <div class="nav_window">
+            <div class="modal_content">
+                <button class="close_btn" onclick="toggleModalNav()">X</button>
+
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Services</a>
+                <a href="#">Contact us</a>
+                <a href="#">Pages</a>
+                <a href="#">elements</a>
+
+            </div>
+        </div>
+
+
+        <div class="loader_window active">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+
+
+
 
         <script src="js/firstDom.js"></script>
+        <script src="js/modal.js"></script>
  </body> 
  </html>      
 

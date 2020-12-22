@@ -1,4 +1,4 @@
-.modal_window {
+.modal_window,.nav_window, .loader_window {
     position: fixed;
     top: 0;
     right: 0;
@@ -17,14 +17,44 @@
     transition: .5s;
     opacity: 0;
     transform: scale(0);
+
 }
 
-.modal_window.active {
-    /* opacity: 1; */
+.nav_window {
+    background-color: #fff;
+}
+
+.loader_window {
+    background-color: #fff;
+    transform: scale(1);
+}
+
+.loader_window i {
+    font-size: 50px;
+    color: #f5b316;
+}
+
+.loader_window.active {
+    opacity: 1;
+}
+
+.modal_window.active, .nav_window.active, .loader_window.active{
+    opacity: 1;
     /* width: 100%; */
     transform: scale(1);
 }
 
+.nav_window .modal_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_window .modal_content a{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
 
 .modal_content {
     background-color: #fff;
