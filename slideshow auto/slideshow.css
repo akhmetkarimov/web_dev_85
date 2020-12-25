@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slide-container {
+    overflow: hidden;
+    background-color: lightblue;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: background 1s;
+    /* transform: translate(-80%); */
+    transition: .5s;
+    /* opacity: 0; */
+}
+
+.slide-container.active {
+    transform: translate(0);
+}
+
+/* .fade-slide {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+} */
+
+
+/* @keyframes fade {
+    100% {
+        opacity: 1;
+    }
+} */
