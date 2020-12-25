@@ -26,7 +26,7 @@
 
 .loader_window {
     background-color: #fff;
-    transform: scale(1);
+    transform: scale(0);
 }
 
 .loader_window i {
@@ -36,6 +36,7 @@
 
 .loader_window.active {
     opacity: 1;
+    transform: scale(1);
 }
 
 .modal_window.active, .nav_window.active, .loader_window.active{

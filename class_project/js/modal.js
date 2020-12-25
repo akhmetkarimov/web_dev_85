@@ -28,6 +28,7 @@ window.onclick = function(e) {
 }
 
 let isLoading = true
+
 function setLoader() {
     if (isLoading === true) {
         loader_modal.classList.remove('active')
