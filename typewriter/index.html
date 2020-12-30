@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Decode <span id="output"></span><span class="blink">|</span> </h1>
+
+    <style>
+
+        @keyframes blinked {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .blink {
+            animation-name: blinked;
+            animation-duration: .3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+    </style>
+
+    <script src="typewriter.js"></script>
+</body>
+</html>
