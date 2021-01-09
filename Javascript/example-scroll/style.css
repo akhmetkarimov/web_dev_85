@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+.header {
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+}
+
+.text {
+    height: 30vh;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transform: translateX(-120%);
+
+    transition: .5s;
+
+    margin: 100px 0;
+}
+
+.text.active {
+    opacity: 1;
+    transform: translateX(0);
+}
