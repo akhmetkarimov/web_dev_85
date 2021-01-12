@@ -17,4 +17,6 @@ $password = $_POST['myPassword'];
 
 $db->query("INSERT INTO account (name, email, password) VALUES ('$name', '$email', '$password')");
 
+header('Location: /web_dev_85_php');
+
 ?>
