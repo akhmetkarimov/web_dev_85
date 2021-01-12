@@ -21,6 +21,7 @@
     <img src="https://i.stack.imgur.com/l60Hf.png" alt="profile" width="200" height="200" style="object-fit: cover">
 
     <p>ID: <?= $profile->id; ?></p>
+    <input type="text" value=<?= $profile->name; ?>>
     <p>Name: <?= $profile->name; ?></p>
     <p>Email: <?= $profile->email; ?></p>
 

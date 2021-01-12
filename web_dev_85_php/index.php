@@ -66,14 +66,15 @@
             if ($query->num_rows > 0){
                 while($row = $query->fetch_object()){
                     echo " 
-                    <tr>
-                        <td> $row->id </td>
-                        <td> $row->name </td>
-                        <td> $row->email </td>
-                        <td> $row->password </td>
-                        <td> <a href='delete.php?id=$row->id'>Delete</a> </td>
-                        <td> <a href='detail.php?id=$row->id'>Detail</a> </td>
-                    </tr>
+                        <tr>
+                            <td> $row->id </td>
+                            <td> $row->name </td>
+                            <td> $row->email </td>
+                            <td> $row->password </td>
+                            <td> <a href='delete.php?id=$row->id'>Delete</a> </td>
+                            <td> <a href='edit.php?id=$row->id'>Edit</a> </td>
+                            <td> <a href='detail.php?id=$row->id'>Detail</a> </td>
+                        </tr>
                     ";               
                 }
             }

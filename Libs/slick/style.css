@@ -1,0 +1,16 @@
+.slick-class div{
+    color: white;
+    background-color: aqua;
+
+    height: 300px;
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.slick-class {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 20px;
+}
