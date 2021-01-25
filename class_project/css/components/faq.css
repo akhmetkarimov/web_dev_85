@@ -76,3 +76,11 @@
     height: 250px;
     font-family: 'Poppins', sans-serif;
 }
+
+.faq_icon.active i {
+    transform: rotate(180deg);
+}
+
+.faq_icon i {
+    transition: .5s;
+}

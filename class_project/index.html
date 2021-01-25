@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -114,14 +115,14 @@
             <h2>SERVICES WE OFFER</h2>
         </div>
         
-        <div class="navs">
+        <div class="navs gallery-navs">
             <a href="">ALL</a>
             <a href="">ARCHITECTURE</a>
             <a href="">INTERIOR DESIGN</a>
             <a href="">HOUSE RENOVATION</a>
         </div>
 
-        <div class="content wrap">
+        <div class="content wrap gallery-content">
 
             <div class="tab_item">
                 <img src="images/widgets/pro.jpg" alt="portfolio">
@@ -303,11 +304,13 @@
             </div>
             <div class="review_block">
                 <div class="review_item container">
-                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="review">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni delectus, nostrum cupiditate eius quam laudantium sapiente, tempore veritatis provident, beatae similique vitae. Ullam maiores rem autem enim doloremque qui nisi.</p>
-                    <h4>John Morison</h4>
+                    <img src="" alt="review">
+                    <p></p>
+                    <h4></h4>
                     <h5>New York</h5>
                 </div>
+                <button class="prev" onclick="nextSlide(-1)"> < </button>
+                <button class="next" onclick="nextSlide(+1)"> > </button>
             </div>
 
         </section>
@@ -454,10 +457,10 @@
             </div>
         </div>
 
-
+<!-- 
         <div class="loader_window active">
             <i class="fas fa-spinner fa-spin"></i>
-        </div>
+        </div> -->
 
 
 
@@ -465,6 +468,9 @@
         <script src="js/firstDom.js"></script>
         <script src="js/modal.js"></script>
         <script src="js/tabs.js"></script>
+        <script src="js/gallery.js"></script>
+        <script src="js/faq.js"></script>
+        <script src="js/slideshow.js"></script>
  </body> 
  </html>      
 
